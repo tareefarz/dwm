@@ -26,3 +26,22 @@ cd ..
 sudo rm -r tardwm
 ```
 
+### Remember to paste this into your `.xinitrc` file.
+
+```
+setxkbmap us &
+
+xset r rate 350 50 &
+
+xset b on &
+
+xset s 1800 &
+
+picom -f &
+
+# nitrogen --restore &  wallpaper
+
+# slstatus & # statusbar
+
+exec dwm
+```
