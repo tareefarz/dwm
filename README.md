@@ -15,7 +15,6 @@ tareefs dwm build which **sucksless**
 ```
 cd <path-to-tardwm>
 sudo make install
-
 ```
 
 ### To uninstall this build of dwm, paste this code into a terminal.
@@ -25,6 +24,5 @@ cd <path-to-tardwm>
 sudo make clean uninstall
 cd ..
 sudo rm -r tardwm
-
 ```
 
